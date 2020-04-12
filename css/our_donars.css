@@ -1,0 +1,162 @@
+/*@import "compass/css3";*/
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+/*text-animation*/
+
+.our-donars-text {
+  display: flex;
+  position: relative;
+  padding: 0 0.0625em;
+  transform-style: preserve-3d;
+  font: 900 8vw chilanka, segoe script, purisa, comic sans ms, cursive;
+}
+.our-donars-text::after {
+  position: absolute;
+  top: calc(50% - .5*0.125em);
+  right: 0;
+  width: calc(50% + 50vw);
+  height: 0.125em;
+  border-radius: 0 0.125em 0.125em 0;
+  background: crimson;
+  animation: slide 2s ease-out;
+  content: "";
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(-100%);
+  }
+}
+.letter {
+  overflow: visible;
+  white-space: pre;
+  transform: rotatey(2deg) scalex(1.00061);
+}
+
+.rev {
+  transform: rotatey(-2deg) scalex(1.00061);
+}
+
+
+/*tooltip text styling*/
+    .tooltiptext-1{
+  visibility: hidden;
+  width: 150px;
+  height:3.8rem;
+  /*background-color:rgb(46,139,87);*/
+  color:rgb(139,69,19);
+  text-align: center;
+  /*border-radius: 6px;*/
+  font-size:1.4rem;
+    /*font: .75rem;*/
+font-family: 'Frijole', cursive;
+  /*padding: 4px 0;*/
+  /*padding-bottom: 4px;*/
+
+  /* Position the tooltip */
+  position:relative;
+
+  /*bottom: 0;*/
+  /*left: 1.5px;*/
+  z-index: 1;
+}
+.our-donars-item{
+    font-size: 0;
+  cursor: pointer;
+}
+
+.our-donars-item:hover .tooltiptext-1{
+  visibility: visible;
+
+
+}
+
+/*main csss our donars*/
+
+
+.our-donars-main{
+
+  background:url('../img/22.png');
+  background-repeat:repeat-x;
+  background-size: 600px 80px;
+  /*background-attachment: fixed;*/
+  background-position:bottom; 
+}
+
+#wrapper {
+  /*width:%;*/
+  /*max-width: auto;*/
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width:none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 3px 3px;
+  border-radius: 10%;
+}
+@media screen and (min-width: 801px) {
+  .edit{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px){
+  .edit{
+    font-size:10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .edit{
+   font-size: 10px;
+
+  }
+}

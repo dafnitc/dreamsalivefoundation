@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+/*meetups heading animation-skew*/
+
+
+
+.meetups-text {
+  /*background-color: #fb9;*/
+  color: black;
+  font-size: 35px;
+font-family: 'Black Ops One', cursive;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin-top: 20vh;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+.meetups-text:hover {
+  -webkit-transform: rotateX(35deg), translateY(-50%);
+          transform: rotateX(35deg), translateY(-50%);
+}
+.meetups-text:hover .text-meetups {
+  color: skyblue;
+}
+.meetups-text:hover .text-meetups:nth-child(odd) {
+  -webkit-transform: skewY(15deg);
+          transform: skewY(15deg);
+}
+.meetups-text:hover .text-meetups:nth-child(even) {
+  -webkit-transform: skewY(-15deg);
+          transform: skewY(-15deg);
+  background-color:skyblue;
+  color: white;
+}
+.meetups-text > .text-meetups {
+  display: block;
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+  transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+.meetups-text > .text-meetups:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+
+/*carousellll*/
+
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.7);
+}
+#carousel-thumbs .selected img {
+  
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+.top-right{
+    position: absolute;
+    top:45%;
+    left: 5%;
+    color: white;
+    width: 20rem;
+    /*height: 10rem;*/
+    border-radius: 5px;
+    background-color: rgb(10,2,40,40%);
+}
+.button-top-right{
+  position: absolute;
+    top: 6%;
+    right: 1%;
+       
+}
+
+

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+/*@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Mitr&display=swap');
+/*for quotesss*/
+.typing-text{
+  /*background-color:#ce3635;*/
+  text-align: center;
+  color:#fff;
+
+}
+.type-write{
+  text-decoration: none;
+  color: white;
+}
+
+
+/*for image*/
+.img-logo{
+  height:auto;
+  width:34rem;
+  margin-top:15vh;
+  /*margin-bottom:10vh;*/
+}
+
+/*.typewriter h1{
+  font-size: 20px;
+}
+*/
+.scale-up-center {
+  -webkit-animation: scale-up-center 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: scale-up-center 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/*for dreams alive foundation*/
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: #402d2d;
+  font-family:'Gugi',cursive;
+}
+
+.ml5 .text-wrapper-1{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1rem;
+  padding-right: 0.05rem;
+  padding-bottom: 0.15rem;
+  line-height: 1rem;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height:0.2rem;
+  width: 100%;
+  background-color: white;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1rem;
+  margin-right:1.3rem;
+  margin-left: 0.1rem;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}

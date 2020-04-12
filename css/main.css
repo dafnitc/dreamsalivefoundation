@@ -1,0 +1,37 @@
+
+  	.navbar-1{
+      height: 10%;
+      background-color: white;
+
+    }
+.navbar-2{
+      /*background-color:#FFFAFA;*/
+      background-color:#F3F2EE; 
+    }
+    .navbar-2 .nav-link{
+      color:black;
+      text-decoration: blink;
+    }
+        .icon{
+      padding:0px 0.65%;
+      color:white;
+      
+    }
+    .icon-i:hover{
+      color:#c32aa3;
+    }
+    .icon-f:hover{
+      color:#0078FF ;
+    }
+    .icon-t:hover{
+      color:#00ACEE;
+    }
+    .download{
+      border-color: gold;
+      background-color: gold;
+      color:black;    }
+    .download:hover{
+      border-color: #007bff;
+      background-color: #007bff;
+      color:white;
+    }
