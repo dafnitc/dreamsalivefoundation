@@ -196,7 +196,8 @@ nav ul a {
 }
 
 nav ul a:hover {
-    text-decoration: line-through;
+    text-decoration: none;
+    letter-spacing: 1px;
     /*font-size: 1.7rem;*/
    /*background-color: black;*/
    transition: transform 0.30s;

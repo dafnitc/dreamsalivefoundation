@@ -107,6 +107,7 @@ a.icon-link:hover {
 
 .my_btn {
   background: white;
+  /*font-size: 5px;*/
   color: #363738;
   font-weight: bold;
   outline: none;
@@ -331,3 +332,8 @@ header {
   text-overflow: ellipsis;
   white-space: nowrap;
 }*/
+/*payment updated css*/
+
+
+
+
