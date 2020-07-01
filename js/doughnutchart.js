@@ -1,6 +1,5 @@
-// Credit to Alan at https://codepen.io/amwill04/pen/NGmjyr
 
-// When on tablet or phone, initially run or restart the pen from under 767px screen width so that the angle of the selected pie slice animates down instead of to the right when the description box is underneath it.
+
 
 var data = [{
   "Title": "Health",
@@ -9,19 +8,19 @@ var data = [{
 }, {
   "Title": "Education",
   "Amount": 101500,
-  "Description": "In hac habitasse platea dictumst. Curabitur lacus neque, congue ac quam a, sagittis accumsan maur."
+  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.101500 "
 }, {
   "Title": "Disaster Relief",
   "Amount": 32120,
-  "Description": "Aenean faucibus, risus sed eleifend rutrum, leo diam porttitor mauris, a eleifend ipsum ipsum ac ."
+  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.32120 "
 }, {
   "Title": "Government School Empowerment",
   "Amount": 25000,
-  "Description": "Laboriosam pariatur recusandae ipsum nisi, saepe doloremque nobis eaque omnis commodi dolor porro? "
+  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.25000 "
 }, {
   "Title": "DAF",
   "Amount": 3000,
-  "Description": "Sit amet consectetur adipisicing elit. Nemo totam perspiciatis tenetur quod ipsam voluptas et consequ"
+  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.3000 "
 },];
 
 var width = parseInt(d3.select('#pieChart').style('width'), 10);

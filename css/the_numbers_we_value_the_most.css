@@ -2,10 +2,8 @@
 /*animation ccss herreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
-@font-face {
-  font-family: Clip;
-  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
 
 .blink_this{
   background-color: #141114;
@@ -38,7 +36,8 @@
   letter-spacing: 2;
   left: 50%;
   top: 1%;
-  font-family:"Clip";
+  /*font-family:"Clip";*/
+  font-family: 'Cabin Sketch', cursive;
   text-transform: uppercase;
   /*font-size: 5vh;  */
   color: #ffe6ff;
