@@ -98,18 +98,20 @@ font-family: 'Orbitron', sans-serif;
 
 
 /*original csssssss*/
-.me{
+.founders-background{
   background-image: url(https://picsum.photos/g/3000/2000);
   align-items: center;
+  
 }
 
-.our-team {
+.our-founders-main {
   padding: 30px  40px;
   /*width: 17em;
   margin-right: 6%;*/
-  margin-left: 7%;
+  height:350px;
+    margin-left: 7%;
   margin-right:7%;
-  
+  min-width: 300px;
   max-width: 330px;
   align-content: center;
   margin-bottom: 30px;
@@ -119,7 +121,7 @@ font-family: 'Orbitron', sans-serif;
   position: relative;
 }
 
-.our-team .picture {
+.our-founders-main .picture {
   display: inline-block;
   height: 130px;
   width: 130px;
@@ -128,7 +130,7 @@ font-family: 'Orbitron', sans-serif;
   position: relative;
 }
 
-.our-team .picture::before {
+.our-founders-main .picture::before {
   content: "";
   width: 100%;
   height: 0;
@@ -143,11 +145,11 @@ font-family: 'Orbitron', sans-serif;
   transition: all 0.3s linear 0s;
 }
 
-.our-team:hover .picture::before {
+.our-founders-main:hover .picture::before {
   height: 100%;
 }
 
-.our-team .picture::after {
+.our-founders-main .picture::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -159,7 +161,7 @@ font-family: 'Orbitron', sans-serif;
   z-index: -1;
 }
 
-.our-team .picture img {
+.our-founders-main .picture img {
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -167,19 +169,19 @@ font-family: 'Orbitron', sans-serif;
   transition: all 0.9s ease 0s;
 }
 
-.our-team:hover .picture img {
+.our-founders-main:hover .picture img {
   box-shadow: 0 0 0 14px #f7f5ec;
   transform: scale(0.7);
 }
 
-.our-team .title {
+.our-founders-main .title {
   display: block;
   font-size: 15px;
   color: #4e5052;
   text-transform: capitalize;
 }
 
-.our-team .social {
+.our-founders-main .social {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -190,15 +192,15 @@ font-family: 'Orbitron', sans-serif;
   transition: all 0.5s ease 0s;
 }
 
-.our-team:hover .social {
+.our-founders-main:hover .social {
   bottom: 0;
 }
 
-.our-team .social li {
+.our-founders-main .social li {
   display: inline-block;
 }
 
-.our-team .social li a {
+.our-founders-main .social li a {
   display: block;
   padding: 10px;
   font-size: 17px;
@@ -207,7 +209,7 @@ font-family: 'Orbitron', sans-serif;
   text-decoration: none;
 }
 
-.our-team .social li a:hover {
+.our-founders-main .social li a:hover {
   color: #1369ce;
   background-color: #f7f5ec;
 }

@@ -6,14 +6,25 @@
 .red-heart{
   color:red;
 }
-.hover-footer:hover{
+.hover-footer:hover {
 	background-color: white;
+	color: black;
+}
+.hover-footer:hover a{
 	color: black;
 }
 .hover-footer{
 	background-color: black;
 	color: white;
+
 }
+.hover-footer-a{
+	color: white;
+}
+/*.hover-footer-a:hover{
+	color: black;
+
+}*/
 .footer-divs{
 	width:30rem;
 }
@@ -37,41 +48,31 @@
   text-decoration: none;
   color: white;
 }this part is directlyinline*/
-
-/*for image*/
-.img-logo{
-  height:auto;
-  width:14rem;
-  margin-top:18vh;
-
-  margin-bottom:10vh;
+.query_footer:hover{
+color: white;
 }
 
-
-.scale-up-center {
-  -webkit-animation: scale-up-center 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: scale-up-center 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+@media screen and (min-width: 801px) {
+  .footer-email {
+    font-size: 1.1rem;
+  }
+  
 }
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+@media screen and (max-width: 800px){
+  .footer-email{
+    font-size: 1rem;
   }
 }
 
-
+@media screen and (max-width: 600px) {
+  .footer-email{
+    font-size:0.9em;
+  
+	}
+}
+@media screen and (max-width: 340px) {
+  .footer-email{
+    font-size:0.9em;
+  
+	}
+}
