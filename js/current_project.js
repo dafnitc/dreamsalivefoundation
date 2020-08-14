@@ -99,18 +99,26 @@ function copyTextToClipboard(text) {
 }
 
 function CopyLink() {
-  copyTextToClipboard(location.href);
+  copyTextToClipboard("http://dreamsalivefoundation.co.in/");
 
 }
 
 
 
 function whatsappShare(){
-document.getElementById("whatsapplink").href = "whatsapp://send?text=Hi there! Click on "+location.href+" to donate for a genuine cause that Dreams Alive Foundation is Funding for.I have done my bit in helping Dreams Alive Foundation by sharing their 'Current Project' .You can help them by giving a donation or Sharing the same.Check their website for more details .To get instant updates on future Projects join 'DAF Volunteer's' WhatsApp group from 'How Could You Help Us' in the website";
+document.getElementById("whatsapplink").href = "whatsapp://send?text=Hi there! Click on http://dreamsalivefoundation.co.in/ to donate for a genuine cause that Dreams Alive Foundation is Funding for.I have done my bit in helping Dreams Alive Foundation by sharing their 'Current Project' .You can help them by giving a donation or Sharing the same.Check their website for more details .To get instant updates on future Projects join 'DAF Volunteer's' WhatsApp group from 'How Could You Help Us' in the website";
 }
 function facebookShare(){
-    document.getElementById('facebooklink').href="https://www.facebook.com/sharer/sharer.php?u="+location.href;
+    document.getElementById('facebooklink').href="https://www.facebook.com/sharer/sharer.php?u=http://dreamsalivefoundation.co.in/";
 }
 function emailShare(){
-    document.getElementById('emaillink').href="https://mail.google.com/a/domain.com/u/0/?view=cm&fs=1&tf=1&source=mailto&to=&su=Add_Your_Helping_Hand&body=Hi there! I have done my bit in helping Dreams Alive Foundation by sharing their 'Current Project' .You can help them by giving a donation or Sharing the same.Check their Website for more details. "+location.href;
+    document.getElementById('emaillink').href="https://mail.google.com/a/domain.com/u/0/?view=cm&fs=1&tf=1&source=mailto&to=&su=Add_Your_Helping_Hand&body=Hi there! I have done my bit in helping Dreams Alive Foundation by sharing their 'Current Project' .You can help them by giving a donation or Sharing the same.Check their Website for more details. http://dreamsalivefoundation.co.in/";
 }
+
+
+// for day,month , year
+var d = new Date();
+var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+document.getElementById("current_day").innerHTML = d.getDate();
+document.getElementById("current_month").innerHTML =months[d.getMonth()];
+document.getElementById("current_year").innerHTML = (d.getFullYear());

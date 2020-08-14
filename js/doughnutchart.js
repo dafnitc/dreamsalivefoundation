@@ -4,23 +4,32 @@
 var data = [{
   "Title": "Health",
   "Amount": 149500,
-  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.149500 "
+  "Description":""
+  // "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.149500 "
 }, {
   "Title": "Education",
   "Amount": 101500,
-  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.101500 "
+  "Description":""
+
+  // "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.101500 "
 }, {
   "Title": "Disaster Relief",
   "Amount": 32120,
-  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.32120 "
+  "Description":""
+
+  // "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.32120 "
 }, {
   "Title": "Government School Empowerment",
   "Amount": 25000,
-  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.25000 "
+  "Description":""
+
+  // "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.25000 "
 }, {
   "Title": "DAF",
   "Amount": 3000,
-  "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.3000 "
+  "Description":""
+  
+  // "Description": '<i class="fas fa-rupee-sign"></i>'+"  Rs.3000 "
 },];
 
 var width = parseInt(d3.select('#pieChart').style('width'), 10);
